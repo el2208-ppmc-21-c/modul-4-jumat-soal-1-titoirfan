@@ -13,7 +13,7 @@
     {
       "name": "02",
       "setup": "",
-      "run": "./soal-02",
+      "run": "./soal-01",
       "input": "2\r\n1\r\n4\r\ny\r\n6\r\n3\r\n4\r\nn",
       "output": "- 8.00i + 16.00j + 0.00k",
       "comparison": "included",
@@ -94,7 +94,7 @@
       "name": "10",
       "setup": "",
       "run": "./soal-01",
-      "input": "3\r\n4\r\n5\r\ny\r\n-3\r\n4\r\n-5\r\ny\r\n4\r\n3\r\n-5\r\ny\r\n1\r\n1\r\n0\r\nn",
+      "input": "3\r\n4\r\n5\r\ny\r\n-3\r\n4\r\n-5\r\ny\r\n4\r\n3\r\n-5\r\ny\r\n1\r\n1\r\n0\r\ny\r\n5\r\n5\r\n5\r\nn",
       "output": "- 3.15i + 3.15j + 0.00k",
       "comparison": "included",
       "timeout": 1,
