@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "1\r\n2\r\n3\r\ny\r\n1\r\n2\r\n3\r\nn",
+      "output": "0.00i + 0.00j + 0.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\n1\r\n4\r\ny\r\n6\r\n3\r\n4\r\nn",
+      "output": "- 8.00i + 16.00j + 0.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\n2\r\n4\r\ny\r\n6\r\n2\r\n4\r\nn",
+      "output": "0.00i + 12.00j - 6.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n2\r\n3\r\ny\r\n1\r\n2\r\n3\r\ny\r\n4\r\n5\r\n6\r\nn",
+      "output": "- 3.00i + 6.00j - 3.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n1\r\n1\r\ny\r\n2\r\n2\r\n2\r\ny\r\n7\r\n8\r\n9\r\nn",
+      "output": "1.00i - 2.00j + 1.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "4\r\n2\r\n3\r\ny\r\n-2\r\n-1\r\n-5\r\ny\r\n4\r\n-2\r\n-3\r\nn",
+      "output": "5.83i + 21.67j - 6.67k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\n2\r\n1\r\ny\r\n1\r\n2\r\n3\r\ny\r\n3\r\n3\r\n3\r\ny\r\n2\r\n4\r\n-2\r\nn",
+      "output": "- 8.57i + 5.71j + 2.86k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n1\r\n1\r\ny\r\n2\r\n3\r\n-4\r\ny\r\n5\r\n6\r\n1\r\ny\r\n7\r\n3\r\n1\r\nn",
+      "output": "0.04i + 0.03j - 0.36k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\n0\r\n1\r\ny\r\n0\r\n3\r\n4\r\ny\r\n2\r\n-2\r\n1\r\ny\r\n-4\r\n5\r\n0\r\nn",
+      "output": "0.18i + 0.14j - 0.07k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\n4\r\n5\r\ny\r\n-3\r\n4\r\n-5\r\ny\r\n4\r\n3\r\n-5\r\ny\r\n1\r\n1\r\n0\r\nn",
+      "output": "- 3.15i + 3.15j + 0.00k",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
